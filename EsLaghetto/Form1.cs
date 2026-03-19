@@ -9,6 +9,7 @@ namespace EsLaghetto
         public Form1()
         {
             InitializeComponent();
+            this.DoubleBuffered = true;
         }
         int[,] matrice = new int[10, 40];
         bool drawing = false;
